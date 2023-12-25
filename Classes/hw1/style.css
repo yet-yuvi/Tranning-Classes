@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .card{
+    width: 1200px;
+    background-color: rgb(8, 8, 60);
+ }
+ .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .head{
+    font-size: 35px;
+    margin: 20px;
+    color: rgb(36, 219, 158);
+ }
+ .uber-amazon-git{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .uber{
+    display: flex;
+    flex-direction: column;
+ }
+ .name{
+    font-size: 30px;
+    color: white;
+ }
+ .btn{
+    background-color: white;
+    margin-top: 15px;
+ }
+
+ .uber-btn{
+    margin:15px ;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border: 2px solid white;
+
+ }
+
+ .amazon{
+    display: flex;
+    flex-direction: column;
+ }
+
+
+
+ .ab{
+   padding:5px 10px;
+ }
+   .amazon-btn{
+    margin: 20px;
+    background-color: rgb(201, 201, 96);
+    color: black;
+    font-size: 25px;
+    padding: 15px 70px;
+    border: 1px solid rgb(201, 201, 96);
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+    
+ }
+
+
+ .git{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .git-btn{
+    margin: 15px;
+    background-color:rgb(98, 169, 114);
+    color: white;
+    font-size: 30px;
+    padding: 20px 50px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 15px;
+ }
+
+ .link-boot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .linkedin{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .apply-btn{
+    margin: 15px;
+    background-color:rgb(83, 83, 198) ;
+    color: white;
+    font-size: 20px;
+    padding: 12px 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 30px;
+ }
+
+ .save-btn{
+    margin: 10px;
+    background-color:white ;
+    color: rgb(83, 83, 207);
+    font-size: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: 2px solid rgb(83, 83, 207);
+    border-radius: 30px;
+ }
+
+ .bootstrap{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .start-btn{
+    margin: 10px;
+    background-color:rgb(130, 32, 187) ;
+    color: white;
+    font-size: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: 2px solid rgb(130, 32, 187) ;
+    border-radius: 5px;
+ }
+
+ .download-btn{
+    margin: 10px;
+    background-color:white ;
+    color: gray;
+    font-size: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+    border: 2px solid grey ;
+    border-radius: 5px;
+    
+ }
+
+ .daraz-bik{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .daraz{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .db{
+    background-color: rgb(76, 37, 127);
+ }
+
+ .daraz-btn{
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 5px 40px;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 5px;
+ }
+
+ .bikroy{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .bb{
+    background-color: rgb(22, 170, 121);
+    margin-bottom: 20px;
+ }
+
+ .bik-btn{
+    margin: 10px 20px;
+    background-color: rgb(222, 188, 64);
+    color: black;
+    font-size: 15px;
+    padding: 15px 10px;
+    cursor: pointer;
+    border: 2px solid rgb(22, 170, 121);
+    border-radius: 5px;
+ }
+
+
+
+
+ .bacolor{
+
+    background-color: red;
+ }
+
