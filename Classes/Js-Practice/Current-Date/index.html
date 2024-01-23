@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is my class practice</h2>
+    
+    <button onclick="addTask()">Show Today's Date</button>
+    <div class="container"></div>
+
+    <script>
+
+        function addTask() {
+            document.querySelector('.container').innerHTML = '';
+            let dateTime = new Date();
+            let newElement = document.createElement('p');
+            newElement.innerText = dateTime;
+            let dateTimeBox = document.querySelector('.container');
+            dateTimeBox.appendChild(newElement);
+            console.log(dateTime);
+        }
+
+    </script>
+    
+</body>
+</html>
